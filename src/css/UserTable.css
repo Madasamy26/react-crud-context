@@ -1,0 +1,62 @@
+
+.table-container {
+    margin-top: 20px;
+    width:75vw;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .edit-button,
+  .delete-button,
+  .save-button,
+  .cancel-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .delete-button {
+    background-color: red;
+  }
+
+  .cancel-button {
+    background-color: gray;
+  }
+  
+  .edit-button:hover,
+  .delete-button:hover {
+    background-color: #45a049;
+  }
+
+  td input[type="text"] {
+    width: 100px; /* Set a fixed width for the input fields */
+  }
+
+  .action-container{
+    display:flex;
+    justify-content: center;
+  }
+  
+
+  
+
